@@ -8,6 +8,9 @@
 A powerful, modern web-based **IOC (Indicator of Compromise) investigation dashboard** built for cybersecurity professionals.  
 This toolkit streamlines threat-intelligence workflows through **automated IOC detection** and **passive OSINT lookups**, aligned with real SOC L1/L2 operations.
 
+## 🌐 Live Application
+https://soc-toolkit-yuki-v1.vercel.app/
+
 ---
 
 ## 🎥 Live Demo
