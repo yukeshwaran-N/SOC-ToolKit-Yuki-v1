@@ -12,17 +12,19 @@ This toolkit streamlines threat-intelligence workflows through **automated IOC d
 
 ---
 
-## 🖥️ Dashboard Preview
+### Installation
 
-<img src="pic1" width="900"/>
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/soc-analyst-toolkit.git
+cd soc-analyst-toolkit
 
----
+# Install dependencies
+npm install
 
-## 🔍 IOC Investigation Example
-
-<img src="pic2" width="900"/>
-
----
+# Start the development server
+npm run dev
+```
 
 ## ✨ Features
 
@@ -83,15 +85,4 @@ This toolkit streamlines threat-intelligence workflows through **automated IOC d
 
 ---
 
-### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/soc-analyst-toolkit.git
-cd soc-analyst-toolkit
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
