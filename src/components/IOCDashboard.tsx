@@ -4,6 +4,9 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { IOCTypeBadge, IOCTypeBadgeLarge } from '@/components/IOCTypeBadge';
 import { LookupGrid } from '@/components/LookupCard';
+import { ThemeToggle } from '@/components/ThemeToggle';
+import { ExportMenu } from '@/components/ExportMenu';
+import { CreatorFooter } from '@/components/CreatorFooter';
 import { detectIOCType, IOCInfo } from '@/lib/ioc-detection';
 import { getSourcesForType, LookupSource } from '@/lib/lookup-sources';
 import { toast } from 'sonner';
@@ -84,9 +87,12 @@ export function IOCDashboard() {
                 <p className="text-xs text-muted-foreground font-mono">IOC Investigation Dashboard</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-5 h-5 text-primary animate-glow-pulse" />
-              <span className="text-xs text-muted-foreground font-mono hidden sm:inline">PASSIVE OSINT ONLY</span>
+            <div className="flex items-center gap-4">
+              <div className="hidden sm:flex items-center gap-2">
+                <Shield className="w-5 h-5 text-primary animate-glow-pulse" />
+                <span className="text-xs text-muted-foreground font-mono">PASSIVE OSINT ONLY</span>
+              </div>
+              <ThemeToggle />
             </div>
           </div>
         </div>
@@ -178,6 +184,7 @@ export function IOCDashboard() {
                     <Copy className="w-4 h-4 mr-2" />
                     Copy Defanged
                   </Button>
+                  <ExportMenu iocInfo={iocInfo} sources={sources} />
                   <Button onClick={handleClear} variant="ghost" size="lg">
                     Clear
                   </Button>
@@ -233,9 +240,7 @@ export function IOCDashboard() {
                 This tool performs <span className="text-cyber-yellow">passive OSINT lookups only</span>. No indicators are executed or detonated.
               </p>
             </div>
-            <div className="text-xs text-muted-foreground font-mono">
-              SOC Toolkit v1.0
-            </div>
+            <CreatorFooter />
           </div>
         </div>
       </footer>
