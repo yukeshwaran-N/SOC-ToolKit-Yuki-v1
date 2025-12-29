@@ -1,5 +1,10 @@
 # 🛡️ SOC Analyst Toolkit
 
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Tech](https://img.shields.io/badge/Stack-React%20%7C%20TypeScript%20%7C%20Tailwind-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 A powerful, modern web-based **IOC (Indicator of Compromise) investigation dashboard** built for cybersecurity professionals.  
 This toolkit streamlines threat-intelligence workflows through **automated IOC detection** and **passive OSINT lookups**, aligned with real SOC L1/L2 operations.
 
