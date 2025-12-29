@@ -5,13 +5,13 @@ export function CreatorFooter() {
     <div className="flex items-center gap-3 text-xs text-muted-foreground font-mono">
       <span>Created by</span>
       <a
-        href="https://www.google.com/search?q=Yukesh"
+        href="https://www.google.com/search?q=Yukeshwaran n"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-1 text-primary hover:text-primary/80 transition-colors font-semibold"
       >
         <Search className="w-3 h-3" />
-        Yukesh
+        Yukeshwaran N
       </a>
       <span className="text-border">|</span>
       <a
