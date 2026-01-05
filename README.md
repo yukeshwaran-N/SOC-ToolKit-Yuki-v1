@@ -19,6 +19,14 @@ https://soc-toolkit-yuki-v1.vercel.app/
 
 
 ---
+## 🚀 Quick Start
+
+### Prerequisites
+- **Node.js 18+**
+- npm or yarn
+- Modern web browser
+
+---
 
 ### Installation
 
@@ -84,13 +92,6 @@ npm run dev
 
 ---
 
-## 🚀 Quick Start
 
-### Prerequisites
-- **Node.js 18+**
-- npm or yarn
-- Modern web browser
-
----
 
 
