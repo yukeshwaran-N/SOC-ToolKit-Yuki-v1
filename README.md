@@ -90,8 +90,4 @@ npm run dev
 - Toast notifications
 - Smooth hover and transition effects
 
----
-
-
-
 
